@@ -1,5 +1,4 @@
 /* eslint-disable linebreak-style */
-const { method } = require('lodash');
 const { addNoteHandler, getAllNotesHandler, getNoteByIdHandler, editNoteByIdHandler, deleteNoteByIdHandler } = require('./handler');
 const path = require('path');
 
